@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76BF14892429A8A800EFEF35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF14882429A8A800EFEF35 /* AppDelegate.swift */; };
+		76BF148B2429A8A800EFEF35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF148A2429A8A800EFEF35 /* SceneDelegate.swift */; };
+		76BF148D2429A8A800EFEF35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF148C2429A8A800EFEF35 /* ViewController.swift */; };
+		76BF14902429A8A800EFEF35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BF148E2429A8A800EFEF35 /* Main.storyboard */; };
+		76BF14932429A8A800EFEF35 /* AngryBirds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76BF14912429A8A800EFEF35 /* AngryBirds.xcdatamodeld */; };
+		76BF14952429A8A800EFEF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BF14942429A8A800EFEF35 /* Assets.xcassets */; };
+		76BF14982429A8A800EFEF35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BF14962429A8A800EFEF35 /* LaunchScreen.storyboard */; };
+		76BF14A32429A8A900EFEF35 /* AngryBirdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF14A22429A8A900EFEF35 /* AngryBirdsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76BF149F2429A8A900EFEF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BF147D2429A8A800EFEF35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76BF14842429A8A800EFEF35;
+			remoteInfo = AngryBirds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76BF14852429A8A800EFEF35 /* AngryBirds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngryBirds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BF14882429A8A800EFEF35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76BF148A2429A8A800EFEF35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		76BF148C2429A8A800EFEF35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76BF148F2429A8A800EFEF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76BF14922429A8A800EFEF35 /* AngryBirds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AngryBirds.xcdatamodel; sourceTree = "<group>"; };
+		76BF14942429A8A800EFEF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76BF14972429A8A800EFEF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76BF14992429A8A800EFEF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76BF149E2429A8A900EFEF35 /* AngryBirdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngryBirdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BF14A22429A8A900EFEF35 /* AngryBirdsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryBirdsTests.swift; sourceTree = "<group>"; };
+		76BF14A42429A8A900EFEF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76BF14822429A8A800EFEF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BF149B2429A8A900EFEF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76BF147C2429A8A800EFEF35 = {
+			isa = PBXGroup;
+			children = (
+				76BF14872429A8A800EFEF35 /* AngryBirds */,
+				76BF14A12429A8A900EFEF35 /* AngryBirdsTests */,
+				76BF14862429A8A800EFEF35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76BF14862429A8A800EFEF35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76BF14852429A8A800EFEF35 /* AngryBirds.app */,
+				76BF149E2429A8A900EFEF35 /* AngryBirdsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76BF14872429A8A800EFEF35 /* AngryBirds */ = {
+			isa = PBXGroup;
+			children = (
+				76BF14882429A8A800EFEF35 /* AppDelegate.swift */,
+				76BF148A2429A8A800EFEF35 /* SceneDelegate.swift */,
+				76BF148C2429A8A800EFEF35 /* ViewController.swift */,
+				76BF148E2429A8A800EFEF35 /* Main.storyboard */,
+				76BF14942429A8A800EFEF35 /* Assets.xcassets */,
+				76BF14962429A8A800EFEF35 /* LaunchScreen.storyboard */,
+				76BF14992429A8A800EFEF35 /* Info.plist */,
+				76BF14912429A8A800EFEF35 /* AngryBirds.xcdatamodeld */,
+			);
+			path = AngryBirds;
+			sourceTree = "<group>";
+		};
+		76BF14A12429A8A900EFEF35 /* AngryBirdsTests */ = {
+			isa = PBXGroup;
+			children = (
+				76BF14A22429A8A900EFEF35 /* AngryBirdsTests.swift */,
+				76BF14A42429A8A900EFEF35 /* Info.plist */,
+			);
+			path = AngryBirdsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76BF14842429A8A800EFEF35 /* AngryBirds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76BF14A72429A8A900EFEF35 /* Build configuration list for PBXNativeTarget "AngryBirds" */;
+			buildPhases = (
+				76BF14812429A8A800EFEF35 /* Sources */,
+				76BF14822429A8A800EFEF35 /* Frameworks */,
+				76BF14832429A8A800EFEF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngryBirds;
+			productName = AngryBirds;
+			productReference = 76BF14852429A8A800EFEF35 /* AngryBirds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76BF149D2429A8A900EFEF35 /* AngryBirdsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76BF14AA2429A8A900EFEF35 /* Build configuration list for PBXNativeTarget "AngryBirdsTests" */;
+			buildPhases = (
+				76BF149A2429A8A900EFEF35 /* Sources */,
+				76BF149B2429A8A900EFEF35 /* Frameworks */,
+				76BF149C2429A8A900EFEF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76BF14A02429A8A900EFEF35 /* PBXTargetDependency */,
+			);
+			name = AngryBirdsTests;
+			productName = AngryBirdsTests;
+			productReference = 76BF149E2429A8A900EFEF35 /* AngryBirdsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76BF147D2429A8A800EFEF35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Chelsea Troy";
+				TargetAttributes = {
+					76BF14842429A8A800EFEF35 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					76BF149D2429A8A900EFEF35 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 76BF14842429A8A800EFEF35;
+					};
+				};
+			};
+			buildConfigurationList = 76BF14802429A8A800EFEF35 /* Build configuration list for PBXProject "AngryBirds" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76BF147C2429A8A800EFEF35;
+			productRefGroup = 76BF14862429A8A800EFEF35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76BF14842429A8A800EFEF35 /* AngryBirds */,
+				76BF149D2429A8A900EFEF35 /* AngryBirdsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76BF14832429A8A800EFEF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BF14982429A8A800EFEF35 /* LaunchScreen.storyboard in Resources */,
+				76BF14952429A8A800EFEF35 /* Assets.xcassets in Resources */,
+				76BF14902429A8A800EFEF35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BF149C2429A8A900EFEF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76BF14812429A8A800EFEF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BF14932429A8A800EFEF35 /* AngryBirds.xcdatamodeld in Sources */,
+				76BF148D2429A8A800EFEF35 /* ViewController.swift in Sources */,
+				76BF14892429A8A800EFEF35 /* AppDelegate.swift in Sources */,
+				76BF148B2429A8A800EFEF35 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BF149A2429A8A900EFEF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BF14A32429A8A900EFEF35 /* AngryBirdsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76BF14A02429A8A900EFEF35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76BF14842429A8A800EFEF35 /* AngryBirds */;
+			targetProxy = 76BF149F2429A8A900EFEF35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76BF148E2429A8A800EFEF35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76BF148F2429A8A800EFEF35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76BF14962429A8A800EFEF35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76BF14972429A8A800EFEF35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76BF14A52429A8A900EFEF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76BF14A62429A8A900EFEF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76BF14A82429A8A900EFEF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPZFZF3JV9;
+				INFOPLIST_FILE = AngryBirds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chelseatroy.AngryBirds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76BF14A92429A8A900EFEF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPZFZF3JV9;
+				INFOPLIST_FILE = AngryBirds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chelseatroy.AngryBirds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76BF14AB2429A8A900EFEF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPZFZF3JV9;
+				INFOPLIST_FILE = AngryBirdsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chelseatroy.AngryBirdsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngryBirds.app/AngryBirds";
+			};
+			name = Debug;
+		};
+		76BF14AC2429A8A900EFEF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPZFZF3JV9;
+				INFOPLIST_FILE = AngryBirdsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chelseatroy.AngryBirdsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngryBirds.app/AngryBirds";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76BF14802429A8A800EFEF35 /* Build configuration list for PBXProject "AngryBirds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BF14A52429A8A900EFEF35 /* Debug */,
+				76BF14A62429A8A900EFEF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76BF14A72429A8A900EFEF35 /* Build configuration list for PBXNativeTarget "AngryBirds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BF14A82429A8A900EFEF35 /* Debug */,
+				76BF14A92429A8A900EFEF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76BF14AA2429A8A900EFEF35 /* Build configuration list for PBXNativeTarget "AngryBirdsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BF14AB2429A8A900EFEF35 /* Debug */,
+				76BF14AC2429A8A900EFEF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		76BF14912429A8A800EFEF35 /* AngryBirds.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				76BF14922429A8A800EFEF35 /* AngryBirds.xcdatamodel */,
+			);
+			currentVersion = 76BF14922429A8A800EFEF35 /* AngryBirds.xcdatamodel */;
+			path = AngryBirds.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 76BF147D2429A8A800EFEF35 /* Project object */;
+}
