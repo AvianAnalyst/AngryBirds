@@ -15,6 +15,8 @@
 		76BF14952429A8A800EFEF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BF14942429A8A800EFEF35 /* Assets.xcassets */; };
 		76BF14982429A8A800EFEF35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BF14962429A8A800EFEF35 /* LaunchScreen.storyboard */; };
 		76BF14A32429A8A900EFEF35 /* AngryBirdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF14A22429A8A900EFEF35 /* AngryBirdsTests.swift */; };
+		76BF14AE242AF9F300EFEF35 /* BirdService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF14AD242AF9F300EFEF35 /* BirdService.swift */; };
+		76BF14B0242B07A900EFEF35 /* BirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF14AF242B07A900EFEF35 /* BirdCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		76BF149E2429A8A900EFEF35 /* AngryBirdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngryBirdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BF14A22429A8A900EFEF35 /* AngryBirdsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryBirdsTests.swift; sourceTree = "<group>"; };
 		76BF14A42429A8A900EFEF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76BF14AD242AF9F300EFEF35 /* BirdService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdService.swift; sourceTree = "<group>"; };
+		76BF14AF242B07A900EFEF35 /* BirdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				76BF14882429A8A800EFEF35 /* AppDelegate.swift */,
+				76BF14AF242B07A900EFEF35 /* BirdCell.swift */,
+				76BF14AD242AF9F300EFEF35 /* BirdService.swift */,
 				76BF148A2429A8A800EFEF35 /* SceneDelegate.swift */,
 				76BF148C2429A8A800EFEF35 /* ViewController.swift */,
 				76BF148E2429A8A800EFEF35 /* Main.storyboard */,
@@ -207,6 +213,8 @@
 				76BF148D2429A8A800EFEF35 /* ViewController.swift in Sources */,
 				76BF14892429A8A800EFEF35 /* AppDelegate.swift in Sources */,
 				76BF148B2429A8A800EFEF35 /* SceneDelegate.swift in Sources */,
+				76BF14B0242B07A900EFEF35 /* BirdCell.swift in Sources */,
+				76BF14AE242AF9F300EFEF35 /* BirdService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
