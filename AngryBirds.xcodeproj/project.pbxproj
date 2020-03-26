@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		76BF14892429A8A800EFEF35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF14882429A8A800EFEF35 /* AppDelegate.swift */; };
 		76BF148B2429A8A800EFEF35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF148A2429A8A800EFEF35 /* SceneDelegate.swift */; };
-		76BF148D2429A8A800EFEF35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF148C2429A8A800EFEF35 /* ViewController.swift */; };
+		76BF148D2429A8A800EFEF35 /* AngryBirdListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF148C2429A8A800EFEF35 /* AngryBirdListViewController.swift */; };
 		76BF14902429A8A800EFEF35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BF148E2429A8A800EFEF35 /* Main.storyboard */; };
 		76BF14932429A8A800EFEF35 /* AngryBirds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76BF14912429A8A800EFEF35 /* AngryBirds.xcdatamodeld */; };
 		76BF14952429A8A800EFEF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BF14942429A8A800EFEF35 /* Assets.xcassets */; };
@@ -33,7 +33,7 @@
 		76BF14852429A8A800EFEF35 /* AngryBirds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngryBirds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BF14882429A8A800EFEF35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76BF148A2429A8A800EFEF35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		76BF148C2429A8A800EFEF35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76BF148C2429A8A800EFEF35 /* AngryBirdListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryBirdListViewController.swift; sourceTree = "<group>"; };
 		76BF148F2429A8A800EFEF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76BF14922429A8A800EFEF35 /* AngryBirds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AngryBirds.xcdatamodel; sourceTree = "<group>"; };
 		76BF14942429A8A800EFEF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 				76BF14AF242B07A900EFEF35 /* BirdCell.swift */,
 				76BF14AD242AF9F300EFEF35 /* BirdService.swift */,
 				76BF148A2429A8A800EFEF35 /* SceneDelegate.swift */,
-				76BF148C2429A8A800EFEF35 /* ViewController.swift */,
+				76BF148C2429A8A800EFEF35 /* AngryBirdListViewController.swift */,
 				76BF148E2429A8A800EFEF35 /* Main.storyboard */,
 				76BF14942429A8A800EFEF35 /* Assets.xcassets */,
 				76BF14962429A8A800EFEF35 /* LaunchScreen.storyboard */,
@@ -210,7 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76BF14932429A8A800EFEF35 /* AngryBirds.xcdatamodeld in Sources */,
-				76BF148D2429A8A800EFEF35 /* ViewController.swift in Sources */,
+				76BF148D2429A8A800EFEF35 /* AngryBirdListViewController.swift in Sources */,
 				76BF14892429A8A800EFEF35 /* AppDelegate.swift in Sources */,
 				76BF148B2429A8A800EFEF35 /* SceneDelegate.swift in Sources */,
 				76BF14B0242B07A900EFEF35 /* BirdCell.swift in Sources */,
