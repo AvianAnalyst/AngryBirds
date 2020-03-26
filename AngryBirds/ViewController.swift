@@ -30,7 +30,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let cellIndentifier = "dataCell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIndentifier, for: indexPath) as! BirdCell
         
-        cell.birdLabel.text = self.birds[indexPath.row].name
+        cell.birdTypeLabel.text = self.birds[indexPath.row].name
+        cell.birdDescriptionLabel.text = "He angry"
         
         if let imageURL = URL(string: self.birds[indexPath.row].imageUrl) {
             DispatchQueue.global(qos: .userInitiated).async {
@@ -38,7 +39,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
                 DispatchQueue.main.async {
                     let image = UIImage(data: imageData as Data)
-                    cell.birdImage.image = image
+                    cell.birdImageView.image = image
                 }
             }
         }

@@ -10,6 +10,13 @@ import Foundation
 import UIKit
 
 class BirdCell: UITableViewCell {
-    @IBOutlet weak var birdImage: UIImageView!
-    @IBOutlet weak var birdLabel: UILabel!
+    @IBOutlet weak var birdImageView: UIImageView! {
+        didSet {
+            birdImageView.layer.cornerRadius = birdImageView.bounds.width / 2
+            birdImageView.clipsToBounds = true
+        }
+    }
+
+    @IBOutlet weak var birdTypeLabel: UILabel!
+    @IBOutlet weak var birdDescriptionLabel: UILabel!
 }
