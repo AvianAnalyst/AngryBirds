@@ -8,9 +8,15 @@
 
 import Foundation
 
-struct Bird {
-    let name: String
-    let imageUrl: String
+class Bird {
+    var name: String
+    var imageUrl: String
+    var confirmedAngry = false
+    
+    init(name: String = "No Name", imageUrl: String = "https://vignette.wikia.nocookie.net/angrybirdsfanon/images/f/fc/Killer_Cut_Bird.png") {
+        self.name = name
+        self.imageUrl = imageUrl
+    }
 }
 
 class BirdService {

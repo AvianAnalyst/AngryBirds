@@ -30,50 +30,41 @@ class AngryBirdListViewController: UIViewController, UITableViewDataSource, UITa
         let cellIndentifier = "dataCell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIndentifier, for: indexPath) as! BirdCell
         
-        cell.birdTypeLabel.text = self.birds[indexPath.row].name
-        cell.birdDescriptionLabel.text = "He angry"
-        
-        if let imageURL = URL(string: self.birds[indexPath.row].imageUrl) {
-            DispatchQueue.global(qos: .userInitiated).async {
-                let imageData: NSData = NSData(contentsOf: imageURL)!
-
-                DispatchQueue.main.async {
-                    let image = UIImage(data: imageData as Data)
-                    cell.birdImageView.image = image
-                }
-            }
-        }
-        
+        cell.bird = self.birds[indexPath.row]
+                
         return cell
     }
     
     //MARK: Delegate Methods
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let menu = UIAlertController(title: nil, message: "HALLO", preferredStyle: .actionSheet)
+        let cell = tableView.cellForRow(at: indexPath) as! BirdCell
+        let menu = UIAlertController(title: nil, message: "Bird Interaction Options", preferredStyle: .actionSheet)
         
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         menu.addAction(cancelAction)
         
         let callActionHandler = { (action:UIAlertAction!) -> Void in
-            let alertMessage = UIAlertController(title: "Service Unavailable", message: "Sorry, the call feature is not available yet.", preferredStyle: .alert)
-            alertMessage.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            let alertMessage = UIAlertController(title: "Time to yell at the bird", message: "Ready?", preferredStyle: .alert)
+            alertMessage.addAction(UIAlertAction(title: "AHHHHHHHHHHHHHH", style: .default, handler: nil))
             self.present(alertMessage, animated: true, completion: nil)
         }
-        let callAction = UIAlertAction(title: "Call \(indexPath.row)", style: .default, handler: callActionHandler)
+        let callAction = UIAlertAction(title: "Yell At Bird", style: .default, handler: callActionHandler)
         menu.addAction(callAction)
         
-        let checkInAction = UIAlertAction(title: "Check In", style: .default, handler:
+        let toggleAngerTitle = cell.bird.confirmedAngry ? "Remove Anger Confirmation" : "Confirm Angry"
+        let toggleAngerConfirmation = UIAlertAction(title: toggleAngerTitle, style: .default, handler:
         {
             (action:UIAlertAction!) -> Void in
             
-            let cell = tableView.cellForRow(at: indexPath)
-            cell?.accessoryType = .checkmark
-        }
-        )
-        menu.addAction(checkInAction)
+            cell.bird.confirmedAngry = !cell.bird.confirmedAngry
+            cell.accessoryType = cell.bird.confirmedAngry ? .checkmark : .none
+        })
+        menu.addAction(toggleAngerConfirmation)
         
         present(menu, animated: true, completion: nil)
+        
+        tableView.deselectRow(at: indexPath, animated: false)
     }
     
     
